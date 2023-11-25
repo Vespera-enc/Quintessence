@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya | Page de connexion</title>
+    <link rel="stylesheet" href="connexion.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <script defer src="animation.js"></script>
+</head>
+
+<body>
+    <div class="element">
+        <div class="container">
+            <div class="design">
+                <div class="pill-1 rotate-45"></div>
+                <div class="pill-2 rotate-45"></div>
+                <div class="pill-3 rotate-45"></div>
+                <div class="pill-4 rotate-45"></div>
+            </div>
+            <div class="login">
+    
+                <h3 class="title">Connexion</h3>
+                <input type="email" id="username" name="username" required placeholder="Adresse e-mail" class="text-input">
+                <input type="password" id="password" name="password" required placeholder="Mot de passe" class="text-input">
+    
+                <div class="bouton1">
+                    <div class="bouton2">
+                        <a type="button" onclick="login()" style="color: #f7f7f7;">Se connecter</a>
+                    </div>
+                </div>
+                <a href="#" class="forgot">Mot de passe oublié ?</a>
+                <div class="create">
+                    <a href="noueaucompte.html">Créer un compte</a>
+                    <i class="ri-arrow-right-fill"></i>
+                </div>
+    
+                <form id="loginForm">
+    
+                </form>
+    
+                <p id="loginStatus"></p>
+    
+                <script src="app.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

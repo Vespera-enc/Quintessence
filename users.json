@@ -1,0 +1,14 @@
+{
+    "alice@exemple.com": {
+        "password": "secret",
+        "data": "('127.0.0.1', 58322)"
+    },
+    "alex.b@exemple.com": {
+        "password": "password123",
+        "data": "('127.0.0.1', 58322)"
+    },
+    "test@example.com": {
+        "password": "password123",
+        "data": "('127.0.0.1', 58322)"
+    }
+}

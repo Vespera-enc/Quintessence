@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'arial_rounded_mtregular';
+    src: url('police/arial_rounded_mt_regular-webfont.woff2') format('woff2'),
+         url('police/arial_rounded_mt_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alexanaregular';
+    src: url('police/alexana-webfont.woff2') format('woff2'),
+         url('police/alexana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (prefers-color-scheme: light) {
+
+    body {
+        font-family: 'arial_rounded_mtregular';
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f7f7f7;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10%;
+    }
+
+    .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(100px);
+        transition: all 500ms;
+    }
+
+    .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+
+    .SousBlock1 {
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 0.706592px 0.706592px -0.625px, rgba(0, 0, 0, 0.145) 0px 1.806562px 1.806562px -1.25px, rgba(0, 0, 0, 0.137) 0px 3.621759px 3.621759px -1.875px, rgba(0, 0, 0, 0.125) 0px 6.8656px 6.8656px -2.5px, rgba(0, 0, 0, 0.106) 0px 13.646761px 13.646761px -3.125px, rgba(0, 0, 0, 0.05) 0px 30px 30px -3.75px;
+        opacity: 1;
+        margin-top: 20px;
+    }
+
+    .SousBlock2 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        outline: currentcolor;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        opacity: 1;
+    }
+
+    .cadre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+
+    h1 {
+        font-family: 'alexanaregular';
+        font-size: 50px;
+        color: #2B2B2B;
+        padding-right: 20px;
+    }
+
+    .text {
+        border-color: #2B2B2B;
+        border-width: 2px;
+        border-style: none none none solid;
+        text-align: left;
+    }
+    
+    h3 {
+        color: #2B2B2B;
+        padding-left: 20px;
+    }
+
+    h6 {
+        color: #3a3a3a;
+        padding-bottom: 30px;
+    }
+}
