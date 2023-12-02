@@ -50,6 +50,24 @@
             </div>
         </div>
     </div>
+        <script>
+        function test() {
+            fetch('http://192.168.178.27:65432', {
+                method: 'OPTIONS',
+                headers: {
+                    'Content-Type': 'text/plain'
+                }
+            })
+                .then(response => {
+                    console.log('Options response:', response);
+                    return response.text();
+                })
+                .then(data => {
+                    console.log('Options data:', data);
+                })
+                .catch(error => console.error('Erreur lors de la requête OPTIONS:', error));
+        }
+    </script>
 </body>
 
 </html>
